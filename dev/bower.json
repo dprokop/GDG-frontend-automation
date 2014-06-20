@@ -1,0 +1,12 @@
+{
+  "name": "Bower tick-tack-toe",
+  "version": "0.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap-stylus": "~3.1.1",
+    "normalize.css": "~3.0.1"
+  },
+  "devDependencies": {
+    "jquery": "~2.1.1"
+  }
+}

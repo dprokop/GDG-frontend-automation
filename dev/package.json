@@ -1,0 +1,18 @@
+{
+    "version": "0.0.1",
+    "author": {
+        "name": "Dominik Prokop"
+    },
+    "devDependencies": {
+        "autoprefixer-stylus": "^0.1.0",
+        "grunt": "^0.4.5",
+        "grunt-bower-install": "^1.6.0",
+        "grunt-contrib-concat": "~0.3.0",
+        "grunt-contrib-cssmin": "^0.10.0",
+        "grunt-contrib-watch": "~0.5.3",
+        "grunt-run-grunt": "^0.1.4",
+        "grunt-targethtml": "^0.2.6",
+        "grunt-contrib-connect": "^0.8.0",
+        "grunt-contrib-stylus": "^0.17.0"
+    }
+}

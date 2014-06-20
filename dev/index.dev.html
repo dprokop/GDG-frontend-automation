@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GDG Cracow - front-end automation</title>
+
+    <!--(if target dev)><!-->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+
+    <!-- bower:css -->
+    <link href="stylesheet" src="dev/bower_components/normalize.css/normalize.css"></link>
+    <!-- endbower -->
+
+    <link rel="stylesheet" href="dev/bower_components/bootstrap-stylus/dist/bootstrap.css"></link>
+
+    <link rel="stylesheet" href="dev/css/main.css" />
+    <!--<!(endif)-->
+
+    <!--(if target dist)><!-->
+    <link href='http://fonts.googleapis.com/css?family=Lato:400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="dist/css/main.min.css?{{rlsdate}}" />
+    <!--<!(endif)-->
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+                <div class="module module-profile">
+
+                    <div class="profile-pic">
+                        <img src="http://m.c.lnkd.licdn.com/mpr/pub/image-gjHbjM3fz3uBqySKNMfAOjt9s06R8ewxgLPlXxgusrhV2onHgjHlBiefskVxnHV1JdUw/dominik-prokop.jpg" />
+                    </div>
+
+                    <section class="content">
+                        <small>Member since 11th June 1987</small>
+                        <h1>Dominik Prokop</h1>
+                        <ul class="interests list-unstyled list-inline">
+                            <li>Baking</li>
+                            <li>UX</li>
+                            <li>Minimalism</li>
+                            <li>User-facing development</li>
+                        </ul>
+                    </section>
+
+                    <footer><a href="http://pl.linkedin.com/pub/dominik-prokop/4a/517/a9b">View  complete profile</a>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--(if target dev)><!-->
+    <!-- bower:js -->
+    <!-- endbower -->
+    <script src="dev/bower_components/bootstrap-stylus/dist/bootstrap.min.js"></script>
+    <!--<!(endif)-->
+
+
+    <!--(if target dist)><!-->
+    <script type="text/javascript" src="dist/js/libs.min.js"></script>
+    <!--<!(endif)-->
+</body>
+
+
+</html>
